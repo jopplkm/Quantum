@@ -1,0 +1,3195 @@
+{
+  "true_prior_x_y_z": [
+    0.004,
+    0.004,
+    0.004
+  ],
+  "tv_levels": [
+    0.0005,
+    0.0009,
+    0.005
+  ],
+  "seed": 42,
+  "results": [
+    {
+      "distance": 3,
+      "basis": "z",
+      "method": "exact enumeration",
+      "shots": null,
+      "matched_baselines": {
+        "standard": 0.0011165652638527106,
+        "correlated": 0.001190143113626569
+      },
+      "exact_ml_ler": 0.0009403593851688436,
+      "rows": [
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.0005000000000000922,
+          "strength_bias_log_odds_ratio": [
+            0.01525101994949607,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9885000000000002,
+            0.003874490025251948,
+            0.0037510199494960868,
+            0.003874490025251948
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": 1,
+          "tv": 0.0005000000000000247,
+          "strength_bias_log_odds_ratio": [
+            0.016752982954060136,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9874999999999999,
+            0.004123508522969926,
+            0.004252982954060142,
+            0.004123508522969926
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.0005000000000000035,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.06009913029132109,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879807930423306,
+            0.003538413915338862,
+            0.0039807930423305694,
+            0.0045000000000000005
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.0005000000000000052,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0600991302913213,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879807930423306,
+            0.004500000000000002,
+            0.0039807930423305694,
+            0.00353841391533886
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.0005000000000000009,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.323347503401161
+          ],
+          "prior_i_x_y_z": [
+            0.98775,
+            0.00425000000000001,
+            0.0037499999999999903,
+            0.00425000000000001
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": 1,
+          "tv": 0.0005000000000000022,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.699343005148489
+          ],
+          "prior_i_x_y_z": [
+            0.98825,
+            0.0037499999999999895,
+            0.004250000000000011,
+            0.0037499999999999895
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.0009000000000000479,
+          "strength_bias_log_odds_ratio": [
+            0.014654846043821721,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9889000000000001,
+            0.0037725769780891667,
+            0.003554846043821694,
+            0.0037725769780891667
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": 1,
+          "tv": 0.0009000000000000626,
+          "strength_bias_log_odds_ratio": [
+            0.017358132004627325,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9870999999999999,
+            0.00422093399768634,
+            0.004458132004627322,
+            0.00422093399768634
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.000900000000000047,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.10517151741978287,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879413721393582,
+            0.003217255721283491,
+            0.003941372139358246,
+            0.004900000000000017
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.0009000000000000453,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.10517151741978265,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879413721393582,
+            0.0049000000000000155,
+            0.003941372139358246,
+            0.0032172557212834926
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.0009000000000000347,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.176366539535891
+          ],
+          "prior_i_x_y_z": [
+            0.9875499999999999,
+            0.0044500000000000026,
+            0.003549999999999997,
+            0.0044500000000000026
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": 1,
+          "tv": 0.0009000000000000449,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.855146948845454
+          ],
+          "prior_i_x_y_z": [
+            0.98845,
+            0.0035499999999999907,
+            0.0044500000000000095,
+            0.0035499999999999907
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.005,
+          "strength_bias_log_odds_ratio": [
+            0.008728227794554223,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.993,
+            0.002635886102722893,
+            0.0017282277945542181,
+            0.002635886102722893
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.005,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.4830293774804583,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9868642350198437,
+            0.0012715299603126692,
+            0.0028642350198436637,
+            0.009000000000000005
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.005000000000000001,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.4830293774804585,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9868642350198437,
+            0.009000000000000005,
+            0.0028642350198436637,
+            0.0012715299603126683
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.005000000000000027,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            3.5550098808977575
+          ],
+          "prior_i_x_y_z": [
+            0.9854999999999999,
+            0.006499999999999999,
+            0.001500000000000001,
+            0.006499999999999999
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "independence",
+          "direction": -1,
+          "tv": 0.007872000000000025,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            0
+          ],
+          "prior_i_x_y_z": [
+            0.9840639999999999,
+            0.007936,
+            6.4e-05,
+            0.007936
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.0005000000000000922,
+          "strength_bias_log_odds_ratio": [
+            0.01525101994949607,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9885000000000002,
+            0.003874490025251948,
+            0.0037510199494960868,
+            0.003874490025251948
+          ],
+          "ler": 0.0011756180240584924,
+          "prediction_disagreements": 33,
+          "ler_difference": -1.4525089568076521e-05
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": 1,
+          "tv": 0.0005000000000000247,
+          "strength_bias_log_odds_ratio": [
+            0.016752982954060136,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9874999999999999,
+            0.004123508522969926,
+            0.004252982954060142,
+            0.004123508522969926
+          ],
+          "ler": 0.001190143113626569,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.0005000000000000035,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.06009913029132109,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879807930423306,
+            0.003538413915338862,
+            0.0039807930423305694,
+            0.0045000000000000005
+          ],
+          "ler": 0.0011756180240584924,
+          "prediction_disagreements": 33,
+          "ler_difference": -1.4525089568076521e-05
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.0005000000000000052,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0600991302913213,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879807930423306,
+            0.004500000000000002,
+            0.0039807930423305694,
+            0.00353841391533886
+          ],
+          "ler": 0.001190143113626569,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.0005000000000000009,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.323347503401161
+          ],
+          "prior_i_x_y_z": [
+            0.98775,
+            0.00425000000000001,
+            0.0037499999999999903,
+            0.00425000000000001
+          ],
+          "ler": 0.0011756180240584924,
+          "prediction_disagreements": 33,
+          "ler_difference": -1.4525089568076521e-05
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": 1,
+          "tv": 0.0005000000000000022,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.699343005148489
+          ],
+          "prior_i_x_y_z": [
+            0.98825,
+            0.0037499999999999895,
+            0.004250000000000011,
+            0.0037499999999999895
+          ],
+          "ler": 0.001190143113626569,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.0009000000000000479,
+          "strength_bias_log_odds_ratio": [
+            0.014654846043821721,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9889000000000001,
+            0.0037725769780891667,
+            0.003554846043821694,
+            0.0037725769780891667
+          ],
+          "ler": 0.0011756180240584924,
+          "prediction_disagreements": 33,
+          "ler_difference": -1.4525089568076521e-05
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": 1,
+          "tv": 0.0009000000000000626,
+          "strength_bias_log_odds_ratio": [
+            0.017358132004627325,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9870999999999999,
+            0.00422093399768634,
+            0.004458132004627322,
+            0.00422093399768634
+          ],
+          "ler": 0.001190143113626569,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.000900000000000047,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.10517151741978287,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879413721393582,
+            0.003217255721283491,
+            0.003941372139358246,
+            0.004900000000000017
+          ],
+          "ler": 0.0011756180240584924,
+          "prediction_disagreements": 33,
+          "ler_difference": -1.4525089568076521e-05
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.0009000000000000453,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.10517151741978265,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879413721393582,
+            0.0049000000000000155,
+            0.003941372139358246,
+            0.0032172557212834926
+          ],
+          "ler": 0.001190143113626569,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.0009000000000000347,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.176366539535891
+          ],
+          "prior_i_x_y_z": [
+            0.9875499999999999,
+            0.0044500000000000026,
+            0.003549999999999997,
+            0.0044500000000000026
+          ],
+          "ler": 0.0011756180240584924,
+          "prediction_disagreements": 33,
+          "ler_difference": -1.4525089568076521e-05
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": 1,
+          "tv": 0.0009000000000000449,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.855146948845454
+          ],
+          "prior_i_x_y_z": [
+            0.98845,
+            0.0035499999999999907,
+            0.0044500000000000095,
+            0.0035499999999999907
+          ],
+          "ler": 0.001190143113626569,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.005,
+          "strength_bias_log_odds_ratio": [
+            0.008728227794554223,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.993,
+            0.002635886102722893,
+            0.0017282277945542181,
+            0.002635886102722893
+          ],
+          "ler": 0.0011756180240584924,
+          "prediction_disagreements": 33,
+          "ler_difference": -1.4525089568076521e-05
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.005,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.4830293774804583,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9868642350198437,
+            0.0012715299603126692,
+            0.0028642350198436637,
+            0.009000000000000005
+          ],
+          "ler": 0.0011756180240584918,
+          "prediction_disagreements": 41,
+          "ler_difference": -1.4525089568077172e-05
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.005000000000000001,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.4830293774804585,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9868642350198437,
+            0.009000000000000005,
+            0.0028642350198436637,
+            0.0012715299603126683
+          ],
+          "ler": 0.001190143113626569,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.005000000000000027,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            3.5550098808977575
+          ],
+          "prior_i_x_y_z": [
+            0.9854999999999999,
+            0.006499999999999999,
+            0.001500000000000001,
+            0.006499999999999999
+          ],
+          "ler": 0.0010565601017134558,
+          "prediction_disagreements": 47,
+          "ler_difference": -0.00013358301191311313
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "independence",
+          "direction": -1,
+          "tv": 0.007872000000000025,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            0
+          ],
+          "prior_i_x_y_z": [
+            0.9840639999999999,
+            0.007936,
+            6.4e-05,
+            0.007936
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 51,
+          "ler_difference": -7.357784977385829e-05
+        }
+      ]
+    },
+    {
+      "distance": 3,
+      "basis": "x",
+      "method": "exact enumeration",
+      "shots": null,
+      "matched_baselines": {
+        "standard": 0.0011165652638527106,
+        "correlated": 0.0011901431136265687
+      },
+      "exact_ml_ler": 0.0009403593851688439,
+      "rows": [
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.0005000000000000922,
+          "strength_bias_log_odds_ratio": [
+            0.01525101994949607,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9885000000000002,
+            0.003874490025251948,
+            0.0037510199494960868,
+            0.003874490025251948
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": 1,
+          "tv": 0.0005000000000000247,
+          "strength_bias_log_odds_ratio": [
+            0.016752982954060136,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9874999999999999,
+            0.004123508522969926,
+            0.004252982954060142,
+            0.004123508522969926
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.0005000000000000035,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.06009913029132109,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879807930423306,
+            0.003538413915338862,
+            0.0039807930423305694,
+            0.0045000000000000005
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.0005000000000000052,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0600991302913213,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879807930423306,
+            0.004500000000000002,
+            0.0039807930423305694,
+            0.00353841391533886
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.0005000000000000009,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.323347503401161
+          ],
+          "prior_i_x_y_z": [
+            0.98775,
+            0.00425000000000001,
+            0.0037499999999999903,
+            0.00425000000000001
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": 1,
+          "tv": 0.0005000000000000022,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.699343005148489
+          ],
+          "prior_i_x_y_z": [
+            0.98825,
+            0.0037499999999999895,
+            0.004250000000000011,
+            0.0037499999999999895
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.0009000000000000479,
+          "strength_bias_log_odds_ratio": [
+            0.014654846043821721,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9889000000000001,
+            0.0037725769780891667,
+            0.003554846043821694,
+            0.0037725769780891667
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": 1,
+          "tv": 0.0009000000000000626,
+          "strength_bias_log_odds_ratio": [
+            0.017358132004627325,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9870999999999999,
+            0.00422093399768634,
+            0.004458132004627322,
+            0.00422093399768634
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.000900000000000047,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.10517151741978287,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879413721393582,
+            0.003217255721283491,
+            0.003941372139358246,
+            0.004900000000000017
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.0009000000000000453,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.10517151741978265,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879413721393582,
+            0.0049000000000000155,
+            0.003941372139358246,
+            0.0032172557212834926
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.0009000000000000347,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.176366539535891
+          ],
+          "prior_i_x_y_z": [
+            0.9875499999999999,
+            0.0044500000000000026,
+            0.003549999999999997,
+            0.0044500000000000026
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": 1,
+          "tv": 0.0009000000000000449,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.855146948845454
+          ],
+          "prior_i_x_y_z": [
+            0.98845,
+            0.0035499999999999907,
+            0.0044500000000000095,
+            0.0035499999999999907
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.005,
+          "strength_bias_log_odds_ratio": [
+            0.008728227794554223,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.993,
+            0.002635886102722893,
+            0.0017282277945542181,
+            0.002635886102722893
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.005,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.4830293774804583,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9868642350198437,
+            0.0012715299603126692,
+            0.0028642350198436637,
+            0.009000000000000005
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.005000000000000001,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.4830293774804585,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9868642350198437,
+            0.009000000000000005,
+            0.0028642350198436637,
+            0.0012715299603126683
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.005000000000000027,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            3.5550098808977575
+          ],
+          "prior_i_x_y_z": [
+            0.9854999999999999,
+            0.006499999999999999,
+            0.001500000000000001,
+            0.006499999999999999
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "standard",
+          "parameter": "independence",
+          "direction": -1,
+          "tv": 0.007872000000000025,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            0
+          ],
+          "prior_i_x_y_z": [
+            0.9840639999999999,
+            0.007936,
+            6.4e-05,
+            0.007936
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.0005000000000000922,
+          "strength_bias_log_odds_ratio": [
+            0.01525101994949607,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9885000000000002,
+            0.003874490025251948,
+            0.0037510199494960868,
+            0.003874490025251948
+          ],
+          "ler": 0.001175618024058492,
+          "prediction_disagreements": 33,
+          "ler_difference": -1.4525089568076738e-05
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": 1,
+          "tv": 0.0005000000000000247,
+          "strength_bias_log_odds_ratio": [
+            0.016752982954060136,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9874999999999999,
+            0.004123508522969926,
+            0.004252982954060142,
+            0.004123508522969926
+          ],
+          "ler": 0.0011901431136265687,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.0005000000000000035,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.06009913029132109,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879807930423306,
+            0.003538413915338862,
+            0.0039807930423305694,
+            0.0045000000000000005
+          ],
+          "ler": 0.0011901431136265687,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.0005000000000000052,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0600991302913213,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879807930423306,
+            0.004500000000000002,
+            0.0039807930423305694,
+            0.00353841391533886
+          ],
+          "ler": 0.001175618024058492,
+          "prediction_disagreements": 33,
+          "ler_difference": -1.4525089568076738e-05
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.0005000000000000009,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.323347503401161
+          ],
+          "prior_i_x_y_z": [
+            0.98775,
+            0.00425000000000001,
+            0.0037499999999999903,
+            0.00425000000000001
+          ],
+          "ler": 0.001175618024058492,
+          "prediction_disagreements": 33,
+          "ler_difference": -1.4525089568076738e-05
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": 1,
+          "tv": 0.0005000000000000022,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.699343005148489
+          ],
+          "prior_i_x_y_z": [
+            0.98825,
+            0.0037499999999999895,
+            0.004250000000000011,
+            0.0037499999999999895
+          ],
+          "ler": 0.0011901431136265687,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.0009000000000000479,
+          "strength_bias_log_odds_ratio": [
+            0.014654846043821721,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9889000000000001,
+            0.0037725769780891667,
+            0.003554846043821694,
+            0.0037725769780891667
+          ],
+          "ler": 0.001175618024058492,
+          "prediction_disagreements": 33,
+          "ler_difference": -1.4525089568076738e-05
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": 1,
+          "tv": 0.0009000000000000626,
+          "strength_bias_log_odds_ratio": [
+            0.017358132004627325,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9870999999999999,
+            0.00422093399768634,
+            0.004458132004627322,
+            0.00422093399768634
+          ],
+          "ler": 0.0011901431136265687,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.000900000000000047,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.10517151741978287,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879413721393582,
+            0.003217255721283491,
+            0.003941372139358246,
+            0.004900000000000017
+          ],
+          "ler": 0.0011901431136265687,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.0009000000000000453,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.10517151741978265,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879413721393582,
+            0.0049000000000000155,
+            0.003941372139358246,
+            0.0032172557212834926
+          ],
+          "ler": 0.001175618024058492,
+          "prediction_disagreements": 33,
+          "ler_difference": -1.4525089568076738e-05
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.0009000000000000347,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.176366539535891
+          ],
+          "prior_i_x_y_z": [
+            0.9875499999999999,
+            0.0044500000000000026,
+            0.003549999999999997,
+            0.0044500000000000026
+          ],
+          "ler": 0.001175618024058492,
+          "prediction_disagreements": 33,
+          "ler_difference": -1.4525089568076738e-05
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": 1,
+          "tv": 0.0009000000000000449,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.855146948845454
+          ],
+          "prior_i_x_y_z": [
+            0.98845,
+            0.0035499999999999907,
+            0.0044500000000000095,
+            0.0035499999999999907
+          ],
+          "ler": 0.0011901431136265687,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.005,
+          "strength_bias_log_odds_ratio": [
+            0.008728227794554223,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.993,
+            0.002635886102722893,
+            0.0017282277945542181,
+            0.002635886102722893
+          ],
+          "ler": 0.001175618024058492,
+          "prediction_disagreements": 33,
+          "ler_difference": -1.4525089568076738e-05
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.005,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.4830293774804583,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9868642350198437,
+            0.0012715299603126692,
+            0.0028642350198436637,
+            0.009000000000000005
+          ],
+          "ler": 0.0011901431136265687,
+          "prediction_disagreements": 0,
+          "ler_difference": 0.0
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.005000000000000001,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.4830293774804585,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9868642350198437,
+            0.009000000000000005,
+            0.0028642350198436637,
+            0.0012715299603126683
+          ],
+          "ler": 0.0011756180240584913,
+          "prediction_disagreements": 41,
+          "ler_difference": -1.4525089568077389e-05
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.005000000000000027,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            3.5550098808977575
+          ],
+          "prior_i_x_y_z": [
+            0.9854999999999999,
+            0.006499999999999999,
+            0.001500000000000001,
+            0.006499999999999999
+          ],
+          "ler": 0.0010565601017134558,
+          "prediction_disagreements": 47,
+          "ler_difference": -0.0001335830119131129
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "independence",
+          "direction": -1,
+          "tv": 0.007872000000000025,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            0
+          ],
+          "prior_i_x_y_z": [
+            0.9840639999999999,
+            0.007936,
+            6.4e-05,
+            0.007936
+          ],
+          "ler": 0.0011165652638527106,
+          "prediction_disagreements": 51,
+          "ler_difference": -7.357784977385807e-05
+        }
+      ]
+    },
+    {
+      "distance": 5,
+      "basis": "z",
+      "method": "paired simulation",
+      "shots": 1000000,
+      "matched_baselines": {
+        "standard": 0.000154,
+        "correlated": 0.000125
+      },
+      "exact_ml_ler": null,
+      "rows": [
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.0005000000000000922,
+          "strength_bias_log_odds_ratio": [
+            0.01525101994949607,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9885000000000002,
+            0.003874490025251948,
+            0.0037510199494960868,
+            0.003874490025251948
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": 1,
+          "tv": 0.0005000000000000247,
+          "strength_bias_log_odds_ratio": [
+            0.016752982954060136,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9874999999999999,
+            0.004123508522969926,
+            0.004252982954060142,
+            0.004123508522969926
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.0005000000000000035,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.06009913029132109,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879807930423306,
+            0.003538413915338862,
+            0.0039807930423305694,
+            0.0045000000000000005
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.0005000000000000052,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0600991302913213,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879807930423306,
+            0.004500000000000002,
+            0.0039807930423305694,
+            0.00353841391533886
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.0005000000000000009,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.323347503401161
+          ],
+          "prior_i_x_y_z": [
+            0.98775,
+            0.00425000000000001,
+            0.0037499999999999903,
+            0.00425000000000001
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": 1,
+          "tv": 0.0005000000000000022,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.699343005148489
+          ],
+          "prior_i_x_y_z": [
+            0.98825,
+            0.0037499999999999895,
+            0.004250000000000011,
+            0.0037499999999999895
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.0009000000000000479,
+          "strength_bias_log_odds_ratio": [
+            0.014654846043821721,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9889000000000001,
+            0.0037725769780891667,
+            0.003554846043821694,
+            0.0037725769780891667
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": 1,
+          "tv": 0.0009000000000000626,
+          "strength_bias_log_odds_ratio": [
+            0.017358132004627325,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9870999999999999,
+            0.00422093399768634,
+            0.004458132004627322,
+            0.00422093399768634
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.000900000000000047,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.10517151741978287,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879413721393582,
+            0.003217255721283491,
+            0.003941372139358246,
+            0.004900000000000017
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.0009000000000000453,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.10517151741978265,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879413721393582,
+            0.0049000000000000155,
+            0.003941372139358246,
+            0.0032172557212834926
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.0009000000000000347,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.176366539535891
+          ],
+          "prior_i_x_y_z": [
+            0.9875499999999999,
+            0.0044500000000000026,
+            0.003549999999999997,
+            0.0044500000000000026
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": 1,
+          "tv": 0.0009000000000000449,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.855146948845454
+          ],
+          "prior_i_x_y_z": [
+            0.98845,
+            0.0035499999999999907,
+            0.0044500000000000095,
+            0.0035499999999999907
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.005,
+          "strength_bias_log_odds_ratio": [
+            0.008728227794554223,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.993,
+            0.002635886102722893,
+            0.0017282277945542181,
+            0.002635886102722893
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.005,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.4830293774804583,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9868642350198437,
+            0.0012715299603126692,
+            0.0028642350198436637,
+            0.009000000000000005
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.005000000000000001,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.4830293774804585,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9868642350198437,
+            0.009000000000000005,
+            0.0028642350198436637,
+            0.0012715299603126683
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.005000000000000027,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            3.5550098808977575
+          ],
+          "prior_i_x_y_z": [
+            0.9854999999999999,
+            0.006499999999999999,
+            0.001500000000000001,
+            0.006499999999999999
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "independence",
+          "direction": -1,
+          "tv": 0.007872000000000025,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            0
+          ],
+          "prior_i_x_y_z": [
+            0.9840639999999999,
+            0.007936,
+            6.4e-05,
+            0.007936
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.0005000000000000922,
+          "strength_bias_log_odds_ratio": [
+            0.01525101994949607,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9885000000000002,
+            0.003874490025251948,
+            0.0037510199494960868,
+            0.003874490025251948
+          ],
+          "ler": 0.000119,
+          "prediction_disagreements": 22,
+          "only_true_prior_failed": 14,
+          "only_comparison_prior_failed": 8,
+          "ler_difference": -6e-06,
+          "95_percent_ci": [
+            -2.1956341016324426e-05,
+            1.0035442253180866e-05
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": 1,
+          "tv": 0.0005000000000000247,
+          "strength_bias_log_odds_ratio": [
+            0.016752982954060136,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9874999999999999,
+            0.004123508522969926,
+            0.004252982954060142,
+            0.004123508522969926
+          ],
+          "ler": 0.000125,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.0005000000000000035,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.06009913029132109,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879807930423306,
+            0.003538413915338862,
+            0.0039807930423305694,
+            0.0045000000000000005
+          ],
+          "ler": 0.000119,
+          "prediction_disagreements": 22,
+          "only_true_prior_failed": 14,
+          "only_comparison_prior_failed": 8,
+          "ler_difference": -6e-06,
+          "95_percent_ci": [
+            -2.1956341016324426e-05,
+            1.0035442253180866e-05
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.0005000000000000052,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0600991302913213,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879807930423306,
+            0.004500000000000002,
+            0.0039807930423305694,
+            0.00353841391533886
+          ],
+          "ler": 0.000125,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.0005000000000000009,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.323347503401161
+          ],
+          "prior_i_x_y_z": [
+            0.98775,
+            0.00425000000000001,
+            0.0037499999999999903,
+            0.00425000000000001
+          ],
+          "ler": 0.000119,
+          "prediction_disagreements": 22,
+          "only_true_prior_failed": 14,
+          "only_comparison_prior_failed": 8,
+          "ler_difference": -6e-06,
+          "95_percent_ci": [
+            -2.1956341016324426e-05,
+            1.0035442253180866e-05
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": 1,
+          "tv": 0.0005000000000000022,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.699343005148489
+          ],
+          "prior_i_x_y_z": [
+            0.98825,
+            0.0037499999999999895,
+            0.004250000000000011,
+            0.0037499999999999895
+          ],
+          "ler": 0.000125,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.0009000000000000479,
+          "strength_bias_log_odds_ratio": [
+            0.014654846043821721,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9889000000000001,
+            0.0037725769780891667,
+            0.003554846043821694,
+            0.0037725769780891667
+          ],
+          "ler": 0.000119,
+          "prediction_disagreements": 22,
+          "only_true_prior_failed": 14,
+          "only_comparison_prior_failed": 8,
+          "ler_difference": -6e-06,
+          "95_percent_ci": [
+            -2.1956341016324426e-05,
+            1.0035442253180866e-05
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": 1,
+          "tv": 0.0009000000000000626,
+          "strength_bias_log_odds_ratio": [
+            0.017358132004627325,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9870999999999999,
+            0.00422093399768634,
+            0.004458132004627322,
+            0.00422093399768634
+          ],
+          "ler": 0.000125,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.000900000000000047,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.10517151741978287,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879413721393582,
+            0.003217255721283491,
+            0.003941372139358246,
+            0.004900000000000017
+          ],
+          "ler": 0.000119,
+          "prediction_disagreements": 22,
+          "only_true_prior_failed": 14,
+          "only_comparison_prior_failed": 8,
+          "ler_difference": -6e-06,
+          "95_percent_ci": [
+            -2.1956341016324426e-05,
+            1.0035442253180866e-05
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.0009000000000000453,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.10517151741978265,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879413721393582,
+            0.0049000000000000155,
+            0.003941372139358246,
+            0.0032172557212834926
+          ],
+          "ler": 0.000125,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.0009000000000000347,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.176366539535891
+          ],
+          "prior_i_x_y_z": [
+            0.9875499999999999,
+            0.0044500000000000026,
+            0.003549999999999997,
+            0.0044500000000000026
+          ],
+          "ler": 0.000119,
+          "prediction_disagreements": 22,
+          "only_true_prior_failed": 14,
+          "only_comparison_prior_failed": 8,
+          "ler_difference": -6e-06,
+          "95_percent_ci": [
+            -2.1956341016324426e-05,
+            1.0035442253180866e-05
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": 1,
+          "tv": 0.0009000000000000449,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.855146948845454
+          ],
+          "prior_i_x_y_z": [
+            0.98845,
+            0.0035499999999999907,
+            0.0044500000000000095,
+            0.0035499999999999907
+          ],
+          "ler": 0.000125,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.005,
+          "strength_bias_log_odds_ratio": [
+            0.008728227794554223,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.993,
+            0.002635886102722893,
+            0.0017282277945542181,
+            0.002635886102722893
+          ],
+          "ler": 0.000119,
+          "prediction_disagreements": 22,
+          "only_true_prior_failed": 14,
+          "only_comparison_prior_failed": 8,
+          "ler_difference": -6e-06,
+          "95_percent_ci": [
+            -2.1956341016324426e-05,
+            1.0035442253180866e-05
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.005,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.4830293774804583,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9868642350198437,
+            0.0012715299603126692,
+            0.0028642350198436637,
+            0.009000000000000005
+          ],
+          "ler": 0.000123,
+          "prediction_disagreements": 60,
+          "only_true_prior_failed": 31,
+          "only_comparison_prior_failed": 29,
+          "ler_difference": -2e-06,
+          "95_percent_ci": [
+            -2.7705717591801894e-05,
+            2.3711909071501623e-05
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.005000000000000001,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.4830293774804585,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9868642350198437,
+            0.009000000000000005,
+            0.0028642350198436637,
+            0.0012715299603126683
+          ],
+          "ler": 0.000125,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.005000000000000027,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            3.5550098808977575
+          ],
+          "prior_i_x_y_z": [
+            0.9854999999999999,
+            0.006499999999999999,
+            0.001500000000000001,
+            0.006499999999999999
+          ],
+          "ler": 0.00011,
+          "prediction_disagreements": 85,
+          "only_true_prior_failed": 50,
+          "only_comparison_prior_failed": 35,
+          "ler_difference": -1.5e-05,
+          "95_percent_ci": [
+            -4.522989886495633e-05,
+            1.525852407268144e-05
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "independence",
+          "direction": -1,
+          "tv": 0.007872000000000025,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            0
+          ],
+          "prior_i_x_y_z": [
+            0.9840639999999999,
+            0.007936,
+            6.4e-05,
+            0.007936
+          ],
+          "ler": 0.000154,
+          "prediction_disagreements": 137,
+          "only_true_prior_failed": 54,
+          "only_comparison_prior_failed": 83,
+          "ler_difference": 2.9e-05,
+          "95_percent_ci": [
+            -9.010985246990014e-06,
+            6.698304339070236e-05
+          ]
+        }
+      ]
+    },
+    {
+      "distance": 5,
+      "basis": "x",
+      "method": "paired simulation",
+      "shots": 1000000,
+      "matched_baselines": {
+        "standard": 0.000132,
+        "correlated": 0.000101
+      },
+      "exact_ml_ler": null,
+      "rows": [
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.0005000000000000922,
+          "strength_bias_log_odds_ratio": [
+            0.01525101994949607,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9885000000000002,
+            0.003874490025251948,
+            0.0037510199494960868,
+            0.003874490025251948
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": 1,
+          "tv": 0.0005000000000000247,
+          "strength_bias_log_odds_ratio": [
+            0.016752982954060136,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9874999999999999,
+            0.004123508522969926,
+            0.004252982954060142,
+            0.004123508522969926
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.0005000000000000035,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.06009913029132109,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879807930423306,
+            0.003538413915338862,
+            0.0039807930423305694,
+            0.0045000000000000005
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.0005000000000000052,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0600991302913213,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879807930423306,
+            0.004500000000000002,
+            0.0039807930423305694,
+            0.00353841391533886
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.0005000000000000009,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.323347503401161
+          ],
+          "prior_i_x_y_z": [
+            0.98775,
+            0.00425000000000001,
+            0.0037499999999999903,
+            0.00425000000000001
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": 1,
+          "tv": 0.0005000000000000022,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.699343005148489
+          ],
+          "prior_i_x_y_z": [
+            0.98825,
+            0.0037499999999999895,
+            0.004250000000000011,
+            0.0037499999999999895
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.0009000000000000479,
+          "strength_bias_log_odds_ratio": [
+            0.014654846043821721,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9889000000000001,
+            0.0037725769780891667,
+            0.003554846043821694,
+            0.0037725769780891667
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": 1,
+          "tv": 0.0009000000000000626,
+          "strength_bias_log_odds_ratio": [
+            0.017358132004627325,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9870999999999999,
+            0.00422093399768634,
+            0.004458132004627322,
+            0.00422093399768634
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.000900000000000047,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.10517151741978287,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879413721393582,
+            0.003217255721283491,
+            0.003941372139358246,
+            0.004900000000000017
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.0009000000000000453,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.10517151741978265,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879413721393582,
+            0.0049000000000000155,
+            0.003941372139358246,
+            0.0032172557212834926
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.0009000000000000347,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.176366539535891
+          ],
+          "prior_i_x_y_z": [
+            0.9875499999999999,
+            0.0044500000000000026,
+            0.003549999999999997,
+            0.0044500000000000026
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": 1,
+          "tv": 0.0009000000000000449,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.855146948845454
+          ],
+          "prior_i_x_y_z": [
+            0.98845,
+            0.0035499999999999907,
+            0.0044500000000000095,
+            0.0035499999999999907
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.005,
+          "strength_bias_log_odds_ratio": [
+            0.008728227794554223,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.993,
+            0.002635886102722893,
+            0.0017282277945542181,
+            0.002635886102722893
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.005,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.4830293774804583,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9868642350198437,
+            0.0012715299603126692,
+            0.0028642350198436637,
+            0.009000000000000005
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.005000000000000001,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.4830293774804585,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9868642350198437,
+            0.009000000000000005,
+            0.0028642350198436637,
+            0.0012715299603126683
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.005000000000000027,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            3.5550098808977575
+          ],
+          "prior_i_x_y_z": [
+            0.9854999999999999,
+            0.006499999999999999,
+            0.001500000000000001,
+            0.006499999999999999
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "standard",
+          "parameter": "independence",
+          "direction": -1,
+          "tv": 0.007872000000000025,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            0
+          ],
+          "prior_i_x_y_z": [
+            0.9840639999999999,
+            0.007936,
+            6.4e-05,
+            0.007936
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.0005000000000000922,
+          "strength_bias_log_odds_ratio": [
+            0.01525101994949607,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9885000000000002,
+            0.003874490025251948,
+            0.0037510199494960868,
+            0.003874490025251948
+          ],
+          "ler": 9e-05,
+          "prediction_disagreements": 33,
+          "only_true_prior_failed": 22,
+          "only_comparison_prior_failed": 11,
+          "ler_difference": -1.1e-05,
+          "95_percent_ci": [
+            -3.0128407725366812e-05,
+            8.213171745499952e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": 1,
+          "tv": 0.0005000000000000247,
+          "strength_bias_log_odds_ratio": [
+            0.016752982954060136,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9874999999999999,
+            0.004123508522969926,
+            0.004252982954060142,
+            0.004123508522969926
+          ],
+          "ler": 0.000101,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.0005000000000000035,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.06009913029132109,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879807930423306,
+            0.003538413915338862,
+            0.0039807930423305694,
+            0.0045000000000000005
+          ],
+          "ler": 0.000103,
+          "prediction_disagreements": 2,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 2,
+          "ler_difference": 2e-06,
+          "95_percent_ci": [
+            -4.214911225386044e-06,
+            8.122235083056579e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.0005000000000000052,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0600991302913213,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879807930423306,
+            0.004500000000000002,
+            0.0039807930423305694,
+            0.00353841391533886
+          ],
+          "ler": 9e-05,
+          "prediction_disagreements": 33,
+          "only_true_prior_failed": 22,
+          "only_comparison_prior_failed": 11,
+          "ler_difference": -1.1e-05,
+          "95_percent_ci": [
+            -3.0128407725366812e-05,
+            8.213171745499952e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.0005000000000000009,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.323347503401161
+          ],
+          "prior_i_x_y_z": [
+            0.98775,
+            0.00425000000000001,
+            0.0037499999999999903,
+            0.00425000000000001
+          ],
+          "ler": 9e-05,
+          "prediction_disagreements": 33,
+          "only_true_prior_failed": 22,
+          "only_comparison_prior_failed": 11,
+          "ler_difference": -1.1e-05,
+          "95_percent_ci": [
+            -3.0128407725366812e-05,
+            8.213171745499952e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": 1,
+          "tv": 0.0005000000000000022,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.699343005148489
+          ],
+          "prior_i_x_y_z": [
+            0.98825,
+            0.0037499999999999895,
+            0.004250000000000011,
+            0.0037499999999999895
+          ],
+          "ler": 0.000103,
+          "prediction_disagreements": 2,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 2,
+          "ler_difference": 2e-06,
+          "95_percent_ci": [
+            -4.214911225386044e-06,
+            8.122235083056579e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.0009000000000000479,
+          "strength_bias_log_odds_ratio": [
+            0.014654846043821721,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9889000000000001,
+            0.0037725769780891667,
+            0.003554846043821694,
+            0.0037725769780891667
+          ],
+          "ler": 9e-05,
+          "prediction_disagreements": 33,
+          "only_true_prior_failed": 22,
+          "only_comparison_prior_failed": 11,
+          "ler_difference": -1.1e-05,
+          "95_percent_ci": [
+            -3.0128407725366812e-05,
+            8.213171745499952e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": 1,
+          "tv": 0.0009000000000000626,
+          "strength_bias_log_odds_ratio": [
+            0.017358132004627325,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9870999999999999,
+            0.00422093399768634,
+            0.004458132004627322,
+            0.00422093399768634
+          ],
+          "ler": 0.000101,
+          "prediction_disagreements": 0,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 0,
+          "ler_difference": 0.0,
+          "95_percent_ci": [
+            -2.9957277863923437e-06,
+            2.9957277863923437e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.000900000000000047,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.10517151741978287,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879413721393582,
+            0.003217255721283491,
+            0.003941372139358246,
+            0.004900000000000017
+          ],
+          "ler": 0.000103,
+          "prediction_disagreements": 2,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 2,
+          "ler_difference": 2e-06,
+          "95_percent_ci": [
+            -4.214911225386044e-06,
+            8.122235083056579e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.0009000000000000453,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.10517151741978265,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9879413721393582,
+            0.0049000000000000155,
+            0.003941372139358246,
+            0.0032172557212834926
+          ],
+          "ler": 9e-05,
+          "prediction_disagreements": 33,
+          "only_true_prior_failed": 22,
+          "only_comparison_prior_failed": 11,
+          "ler_difference": -1.1e-05,
+          "95_percent_ci": [
+            -3.0128407725366812e-05,
+            8.213171745499952e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.0009000000000000347,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.176366539535891
+          ],
+          "prior_i_x_y_z": [
+            0.9875499999999999,
+            0.0044500000000000026,
+            0.003549999999999997,
+            0.0044500000000000026
+          ],
+          "ler": 9e-05,
+          "prediction_disagreements": 33,
+          "only_true_prior_failed": 22,
+          "only_comparison_prior_failed": 11,
+          "ler_difference": -1.1e-05,
+          "95_percent_ci": [
+            -3.0128407725366812e-05,
+            8.213171745499952e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": 1,
+          "tv": 0.0009000000000000449,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            5.855146948845454
+          ],
+          "prior_i_x_y_z": [
+            0.98845,
+            0.0035499999999999907,
+            0.0044500000000000095,
+            0.0035499999999999907
+          ],
+          "ler": 0.000103,
+          "prediction_disagreements": 2,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 2,
+          "ler_difference": 2e-06,
+          "95_percent_ci": [
+            -4.214911225386044e-06,
+            8.122235083056579e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "strength",
+          "direction": -1,
+          "tv": 0.005,
+          "strength_bias_log_odds_ratio": [
+            0.008728227794554223,
+            0.0,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.993,
+            0.002635886102722893,
+            0.0017282277945542181,
+            0.002635886102722893
+          ],
+          "ler": 8.9e-05,
+          "prediction_disagreements": 34,
+          "only_true_prior_failed": 23,
+          "only_comparison_prior_failed": 11,
+          "ler_difference": -1.2e-05,
+          "95_percent_ci": [
+            -3.136031423352192e-05,
+            7.449744868685005e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": -1,
+          "tv": 0.005,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            -0.4830293774804583,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9868642350198437,
+            0.0012715299603126692,
+            0.0028642350198436637,
+            0.009000000000000005
+          ],
+          "ler": 0.000104,
+          "prediction_disagreements": 3,
+          "only_true_prior_failed": 0,
+          "only_comparison_prior_failed": 3,
+          "ler_difference": 3e-06,
+          "95_percent_ci": [
+            -3.907917875892295e-06,
+            9.73919642334174e-06
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "bias",
+          "direction": 1,
+          "tv": 0.005000000000000001,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.4830293774804585,
+            5.5093883366279774
+          ],
+          "prior_i_x_y_z": [
+            0.9868642350198437,
+            0.009000000000000005,
+            0.0028642350198436637,
+            0.0012715299603126683
+          ],
+          "ler": 9.6e-05,
+          "prediction_disagreements": 67,
+          "only_true_prior_failed": 36,
+          "only_comparison_prior_failed": 31,
+          "ler_difference": -5e-06,
+          "95_percent_ci": [
+            -3.207195060995841e-05,
+            2.2085194903461073e-05
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "correlation",
+          "direction": -1,
+          "tv": 0.005000000000000027,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            3.5550098808977575
+          ],
+          "prior_i_x_y_z": [
+            0.9854999999999999,
+            0.006499999999999999,
+            0.001500000000000001,
+            0.006499999999999999
+          ],
+          "ler": 9.9e-05,
+          "prediction_disagreements": 86,
+          "only_true_prior_failed": 44,
+          "only_comparison_prior_failed": 42,
+          "ler_difference": -2e-06,
+          "95_percent_ci": [
+            -3.2524329481028956e-05,
+            2.852801465175679e-05
+          ]
+        },
+        {
+          "decoder": "correlated",
+          "parameter": "independence",
+          "direction": -1,
+          "tv": 0.007872000000000025,
+          "strength_bias_log_odds_ratio": [
+            0.016,
+            0.0,
+            0
+          ],
+          "prior_i_x_y_z": [
+            0.9840639999999999,
+            0.007936,
+            6.4e-05,
+            0.007936
+          ],
+          "ler": 0.000132,
+          "prediction_disagreements": 129,
+          "only_true_prior_failed": 49,
+          "only_comparison_prior_failed": 80,
+          "ler_difference": 3.1e-05,
+          "95_percent_ci": [
+            -5.86389453426221e-06,
+            6.783103527155774e-05
+          ]
+        }
+      ]
+    }
+  ]
+}

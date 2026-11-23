@@ -1,0 +1,41 @@
+{
+  "distance": 3,
+  "basis": "z",
+  "shots": 1000000,
+  "seed": 42,
+  "stim": "1.16.0",
+  "pymatching": "2.4.0",
+  "results": {
+    "standard_true": {
+      "failures": 2124,
+      "ler": 0.002124
+    },
+    "correlated_true": {
+      "failures": 1925,
+      "ler": 0.001925
+    },
+    "standard_independent": {
+      "failures": 2124,
+      "ler": 0.002124
+    },
+    "correlated_independent": {
+      "failures": 2124,
+      "ler": 0.002124
+    }
+  },
+  "standard_check": {
+    "same_edges": true,
+    "max_absolute_weight_gap": 0.0,
+    "prediction_disagreements": 0
+  },
+  "correlated_paired": {
+    "max_initial_edge_weight_gap": 5.773159728050814e-15,
+    "only_true_prior_failed": 523,
+    "only_independent_prior_failed": 722,
+    "ler_independent_minus_true": 0.000199,
+    "approximate_95_percent_ci": [
+      0.0001298433325597376,
+      0.0002681566674402624
+    ]
+  }
+}

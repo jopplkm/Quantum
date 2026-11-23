@@ -1,0 +1,1440 @@
+[
+  {
+    "basis": "z",
+    "patterns": 262144,
+    "reachable_syndromes": 256,
+    "exact_ler": {
+      "ml": 0.00041982550766988603,
+      "low_prior": 0.0017168047502344292,
+      "true_prior": 0.0019242736750317633
+    },
+    "differing_syndromes": 47,
+    "low_prior_ml_matches_among_disagreements": 17,
+    "true_prior_ml_matches_among_disagreements": 30,
+    "ml_ties_among_disagreements": 0,
+    "low_prior_ler_gain_on_its_wins": 0.0004946408345782675,
+    "true_prior_ler_gain_on_its_wins": 0.0002871719097809331,
+    "syndrome_details": [
+      {
+        "detectors": [
+          5,
+          6,
+          8,
+          10
+        ],
+        "syndrome_probability": 9.213792727358886e-05,
+        "logical_one_given_syndrome": 0.0022352475360759494,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.1726025123754e-05
+      },
+      {
+        "detectors": [
+          5,
+          7,
+          9,
+          10
+        ],
+        "syndrome_probability": 9.213792727358885e-05,
+        "logical_one_given_syndrome": 0.997764752463924,
+        "ml_flip": 1,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": 9.172602512375398e-05
+      },
+      {
+        "detectors": [
+          5,
+          7,
+          9
+        ],
+        "syndrome_probability": 9.213792727358883e-05,
+        "logical_one_given_syndrome": 0.0022352475360759537,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.172602512375397e-05
+      },
+      {
+        "detectors": [
+          6,
+          8,
+          10
+        ],
+        "syndrome_probability": 9.213792727358881e-05,
+        "logical_one_given_syndrome": 0.002235247536075951,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.172602512375394e-05
+      },
+      {
+        "detectors": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "syndrome_probability": 9.23939432119617e-05,
+        "logical_one_given_syndrome": 0.9948583374243619,
+        "ml_flip": 1,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": 9.144382625190455e-05
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          8,
+          9
+        ],
+        "syndrome_probability": 0.00010141561160331907,
+        "logical_one_given_syndrome": 0.9082632169103436,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -8.280852767620203e-05
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "syndrome_probability": 0.00010141561160331895,
+        "logical_one_given_syndrome": 0.9082632169103433,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -8.280852767620186e-05
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          10
+        ],
+        "syndrome_probability": 2.0497550949567507e-05,
+        "logical_one_given_syndrome": 0.8987341043202068,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.634614523726721e-05
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          10
+        ],
+        "syndrome_probability": 2.0497550949567497e-05,
+        "logical_one_given_syndrome": 0.8987341043202067,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.63461452372672e-05
+      },
+      {
+        "detectors": [
+          5,
+          10,
+          11
+        ],
+        "syndrome_probability": 2.0497550949567476e-05,
+        "logical_one_given_syndrome": 0.8987341043202068,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.6346145237267185e-05
+      },
+      {
+        "detectors": [
+          5,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 2.0497550949567473e-05,
+        "logical_one_given_syndrome": 0.8987341043202068,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.6346145237267182e-05
+      },
+      {
+        "detectors": [
+          6,
+          10
+        ],
+        "syndrome_probability": 2.2523063502549882e-05,
+        "logical_one_given_syndrome": 0.8191862505086855,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.4378104378695838e-05
+      },
+      {
+        "detectors": [
+          5,
+          9
+        ],
+        "syndrome_probability": 2.252306350254989e-05,
+        "logical_one_given_syndrome": 0.1808137494913147,
+        "ml_flip": 0,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": -1.4378104378695832e-05
+      },
+      {
+        "detectors": [
+          5,
+          6,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 9.55909971748302e-06,
+        "logical_one_given_syndrome": 0.02636962309493595,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.054960004129148e-06
+      },
+      {
+        "detectors": [
+          5,
+          6,
+          10,
+          11
+        ],
+        "syndrome_probability": 9.559099717483019e-06,
+        "logical_one_given_syndrome": 0.026369623094935957,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.054960004129146e-06
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          9,
+          10
+        ],
+        "syndrome_probability": 9.559099717483016e-06,
+        "logical_one_given_syndrome": 0.026369623094935936,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.054960004129143e-06
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          9,
+          10
+        ],
+        "syndrome_probability": 9.559099717482987e-06,
+        "logical_one_given_syndrome": 0.026369623094936078,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.054960004129114e-06
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          8
+        ],
+        "syndrome_probability": 1.0357329569957272e-05,
+        "logical_one_given_syndrome": 0.908253291877568,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -8.456827783991863e-06
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          8
+        ],
+        "syndrome_probability": 1.0357329569957246e-05,
+        "logical_one_given_syndrome": 0.9082532918775676,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -8.456827783991835e-06
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.132560335884679e-06,
+        "logical_one_given_syndrome": 0.9082523143881195,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -9.247407566182122e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          8,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.1325603358846789e-06,
+        "logical_one_given_syndrome": 0.9082523143881195,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -9.24740756618212e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.1325603358846784e-06,
+        "logical_one_given_syndrome": 0.908252314388119,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -9.247407566182109e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          8,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.1325603358846782e-06,
+        "logical_one_given_syndrome": 0.908252314388119,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -9.247407566182106e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "syndrome_probability": 1.1325603358846793e-06,
+        "logical_one_given_syndrome": 0.09503936537665725,
+        "ml_flip": 0,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": -9.172847047381718e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "syndrome_probability": 1.1325603358846789e-06,
+        "logical_one_given_syndrome": 0.9049606346233426,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -9.172847047381713e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          7,
+          8,
+          9
+        ],
+        "syndrome_probability": 1.1325603358846776e-06,
+        "logical_one_given_syndrome": 0.09503936537665776,
+        "ml_flip": 0,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": -9.172847047381693e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          10
+        ],
+        "syndrome_probability": 1.1325603358846774e-06,
+        "logical_one_given_syndrome": 0.9049606346233421,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -9.17284704738169e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          8,
+          10
+        ],
+        "syndrome_probability": 1.061040368027839e-06,
+        "logical_one_given_syndrome": 0.907277634098846,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -8.642760215474942e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          8,
+          10
+        ],
+        "syndrome_probability": 1.061040368027839e-06,
+        "logical_one_given_syndrome": 0.9072776340988457,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -8.642760215474934e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          8,
+          9,
+          10
+        ],
+        "syndrome_probability": 4.2445532346640213e-07,
+        "logical_one_given_syndrome": 0.8841292506706031,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -3.2609141069259503e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          8,
+          9,
+          10
+        ],
+        "syndrome_probability": 4.244553234664022e-07,
+        "logical_one_given_syndrome": 0.8841292506706029,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -3.2609141069259487e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          8,
+          11
+        ],
+        "syndrome_probability": 1.2698335029097103e-07,
+        "logical_one_given_syndrome": 0.9073627366409058,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.0345657016472145e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.2698335029097103e-07,
+        "logical_one_given_syndrome": 0.9073627366409058,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.0345657016472145e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          8,
+          11
+        ],
+        "syndrome_probability": 1.2698335029097069e-07,
+        "logical_one_given_syndrome": 0.9073627366409055,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.034565701647211e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.2698335029097069e-07,
+        "logical_one_given_syndrome": 0.9073627366409055,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.034565701647211e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          7,
+          8,
+          10
+        ],
+        "syndrome_probability": 1.2698335029097087e-07,
+        "logical_one_given_syndrome": 0.8324709132599779,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -8.443654088010154e-08
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          7,
+          8
+        ],
+        "syndrome_probability": 1.2698335029097084e-07,
+        "logical_one_given_syndrome": 0.16752908674002212,
+        "ml_flip": 0,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": -8.443654088010151e-08
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          10
+        ],
+        "syndrome_probability": 1.269833502909706e-07,
+        "logical_one_given_syndrome": 0.8324709132599772,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -8.443654088010121e-08
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "syndrome_probability": 1.2698335029097058e-07,
+        "logical_one_given_syndrome": 0.1675290867400227,
+        "ml_flip": 0,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": -8.443654088010117e-08
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          7,
+          8,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.400734763167486e-08,
+        "logical_one_given_syndrome": 0.17397550578529092,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.133476853812797e-09
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.400734763167486e-08,
+        "logical_one_given_syndrome": 0.17397550578529092,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.133476853812797e-09
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          7,
+          8,
+          11
+        ],
+        "syndrome_probability": 1.4007347631674854e-08,
+        "logical_one_given_syndrome": 0.8260244942147091,
+        "ml_flip": 1,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": 9.133476853812795e-09
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.4007347631674854e-08,
+        "logical_one_given_syndrome": 0.8260244942147091,
+        "ml_flip": 1,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": 9.133476853812795e-09
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.4007347631674866e-08,
+        "logical_one_given_syndrome": 0.8260244942147088,
+        "ml_flip": 1,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": 9.133476853812794e-09
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          11
+        ],
+        "syndrome_probability": 1.4007347631674864e-08,
+        "logical_one_given_syndrome": 0.8260244942147087,
+        "ml_flip": 1,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": 9.133476853812792e-09
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.4007347631674867e-08,
+        "logical_one_given_syndrome": 0.1739755057852913,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.133476853812792e-09
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.4007347631674867e-08,
+        "logical_one_given_syndrome": 0.17397550578529133,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.133476853812792e-09
+      }
+    ]
+  },
+  {
+    "basis": "x",
+    "patterns": 262144,
+    "reachable_syndromes": 256,
+    "exact_ler": {
+      "ml": 0.00041982550766988603,
+      "low_prior": 0.001716804750234429,
+      "true_prior": 0.0019242736750317638
+    },
+    "differing_syndromes": 47,
+    "low_prior_ml_matches_among_disagreements": 17,
+    "true_prior_ml_matches_among_disagreements": 30,
+    "ml_ties_among_disagreements": 0,
+    "low_prior_ler_gain_on_its_wins": 0.0004946408345782677,
+    "true_prior_ler_gain_on_its_wins": 0.0002871719097809329,
+    "syndrome_details": [
+      {
+        "detectors": [
+          4,
+          6,
+          9,
+          10
+        ],
+        "syndrome_probability": 9.213792727358886e-05,
+        "logical_one_given_syndrome": 0.997764752463924,
+        "ml_flip": 1,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": 9.1726025123754e-05
+      },
+      {
+        "detectors": [
+          4,
+          9,
+          10
+        ],
+        "syndrome_probability": 9.213792727358883e-05,
+        "logical_one_given_syndrome": 0.0022352475360759463,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.172602512375397e-05
+      },
+      {
+        "detectors": [
+          5,
+          6,
+          11
+        ],
+        "syndrome_probability": 9.213792727358883e-05,
+        "logical_one_given_syndrome": 0.002235247536075955,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.172602512375397e-05
+      },
+      {
+        "detectors": [
+          5,
+          6,
+          9,
+          11
+        ],
+        "syndrome_probability": 9.213792727358883e-05,
+        "logical_one_given_syndrome": 0.0022352475360759554,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.172602512375397e-05
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 9.239394321196186e-05,
+        "logical_one_given_syndrome": 0.9948583374243619,
+        "ml_flip": 1,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": 9.144382625190472e-05
+      },
+      {
+        "detectors": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 0.00010141561160331895,
+        "logical_one_given_syndrome": 0.9082632169103433,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -8.280852767620186e-05
+      },
+      {
+        "detectors": [
+          5,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 0.00010141561160331895,
+        "logical_one_given_syndrome": 0.9082632169103433,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -8.280852767620186e-05
+      },
+      {
+        "detectors": [
+          6,
+          8,
+          9
+        ],
+        "syndrome_probability": 2.04975509495675e-05,
+        "logical_one_given_syndrome": 0.898734104320207,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.634614523726721e-05
+      },
+      {
+        "detectors": [
+          6,
+          7,
+          9,
+          10
+        ],
+        "syndrome_probability": 2.0497550949567493e-05,
+        "logical_one_given_syndrome": 0.8987341043202071,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.634614523726721e-05
+      },
+      {
+        "detectors": [
+          6,
+          7,
+          9
+        ],
+        "syndrome_probability": 2.0497550949567487e-05,
+        "logical_one_given_syndrome": 0.8987341043202071,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.6346145237267202e-05
+      },
+      {
+        "detectors": [
+          5,
+          6,
+          8,
+          9
+        ],
+        "syndrome_probability": 2.04975509495675e-05,
+        "logical_one_given_syndrome": 0.8987341043202067,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.6346145237267202e-05
+      },
+      {
+        "detectors": [
+          9,
+          10
+        ],
+        "syndrome_probability": 2.2523063502549892e-05,
+        "logical_one_given_syndrome": 0.18081374949131448,
+        "ml_flip": 0,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": -1.4378104378695842e-05
+      },
+      {
+        "detectors": [
+          5,
+          6
+        ],
+        "syndrome_probability": 2.2523063502549818e-05,
+        "logical_one_given_syndrome": 0.8191862505086852,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.437810437869578e-05
+      },
+      {
+        "detectors": [
+          5,
+          6,
+          7,
+          9
+        ],
+        "syndrome_probability": 9.559099717483017e-06,
+        "logical_one_given_syndrome": 0.026369623094935995,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.054960004129144e-06
+      },
+      {
+        "detectors": [
+          6,
+          8,
+          9,
+          10
+        ],
+        "syndrome_probability": 9.559099717483017e-06,
+        "logical_one_given_syndrome": 0.02636962309493596,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.054960004129144e-06
+      },
+      {
+        "detectors": [
+          5,
+          6,
+          8,
+          9,
+          10
+        ],
+        "syndrome_probability": 9.559099717483016e-06,
+        "logical_one_given_syndrome": 0.026369623094935978,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.054960004129143e-06
+      },
+      {
+        "detectors": [
+          5,
+          6,
+          7,
+          9,
+          10
+        ],
+        "syndrome_probability": 9.559099717483014e-06,
+        "logical_one_given_syndrome": 0.026369623094936012,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.054960004129141e-06
+      },
+      {
+        "detectors": [
+          5,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.0357329569957273e-05,
+        "logical_one_given_syndrome": 0.9082532918775682,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -8.456827783991869e-06
+      },
+      {
+        "detectors": [
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.035732956995727e-05,
+        "logical_one_given_syndrome": 0.9082532918775681,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -8.456827783991865e-06
+      },
+      {
+        "detectors": [
+          6,
+          7,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.1325603358846793e-06,
+        "logical_one_given_syndrome": 0.9082523143881189,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -9.247407566182114e-07
+      },
+      {
+        "detectors": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.132560335884679e-06,
+        "logical_one_given_syndrome": 0.908252314388119,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -9.247407566182114e-07
+      },
+      {
+        "detectors": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.1325603358846789e-06,
+        "logical_one_given_syndrome": 0.908252314388119,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -9.247407566182112e-07
+      },
+      {
+        "detectors": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.1325603358846789e-06,
+        "logical_one_given_syndrome": 0.908252314388119,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -9.247407566182112e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.132560335884679e-06,
+        "logical_one_given_syndrome": 0.09503936537665755,
+        "ml_flip": 0,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": -9.172847047381711e-07
+      },
+      {
+        "detectors": [
+          4,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.1325603358846787e-06,
+        "logical_one_given_syndrome": 0.09503936537665757,
+        "ml_flip": 0,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": -9.172847047381707e-07
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.1325603358846787e-06,
+        "logical_one_given_syndrome": 0.9049606346233422,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -9.172847047381702e-07
+      },
+      {
+        "detectors": [
+          4,
+          6,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.1325603358846784e-06,
+        "logical_one_given_syndrome": 0.9049606346233422,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -9.1728470473817e-07
+      },
+      {
+        "detectors": [
+          6,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.0610403680278392e-06,
+        "logical_one_given_syndrome": 0.9072776340988457,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -8.642760215474936e-07
+      },
+      {
+        "detectors": [
+          5,
+          6,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.0610403680278392e-06,
+        "logical_one_given_syndrome": 0.9072776340988457,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -8.642760215474936e-07
+      },
+      {
+        "detectors": [
+          6,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 4.244553234664021e-07,
+        "logical_one_given_syndrome": 0.8841292506706032,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -3.260914106925951e-07
+      },
+      {
+        "detectors": [
+          5,
+          6,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 4.244553234664021e-07,
+        "logical_one_given_syndrome": 0.8841292506706032,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -3.260914106925951e-07
+      },
+      {
+        "detectors": [
+          7,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.26983350290971e-07,
+        "logical_one_given_syndrome": 0.9073627366409058,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.0345657016472144e-07
+      },
+      {
+        "detectors": [
+          5,
+          7,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.26983350290971e-07,
+        "logical_one_given_syndrome": 0.9073627366409058,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.0345657016472144e-07
+      },
+      {
+        "detectors": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.26983350290971e-07,
+        "logical_one_given_syndrome": 0.9073627366409058,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.0345657016472144e-07
+      },
+      {
+        "detectors": [
+          5,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.2698335029097098e-07,
+        "logical_one_given_syndrome": 0.9073627366409058,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -1.0345657016472143e-07
+      },
+      {
+        "detectors": [
+          4,
+          6,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.2698335029097087e-07,
+        "logical_one_given_syndrome": 0.832470913259978,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -8.443654088010155e-08
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.2698335029097087e-07,
+        "logical_one_given_syndrome": 0.832470913259978,
+        "ml_flip": 1,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": -8.443654088010155e-08
+      },
+      {
+        "detectors": [
+          4,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.269833502909706e-07,
+        "logical_one_given_syndrome": 0.16752908674002245,
+        "ml_flip": 0,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": -8.443654088010126e-08
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.269833502909706e-07,
+        "logical_one_given_syndrome": 0.16752908674002245,
+        "ml_flip": 0,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": -8.443654088010126e-08
+      },
+      {
+        "detectors": [
+          4,
+          6,
+          7,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.4007347631674869e-08,
+        "logical_one_given_syndrome": 0.1739755057852909,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.133476853812803e-09
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.4007347631674866e-08,
+        "logical_one_given_syndrome": 0.17397550578529095,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.1334768538128e-09
+      },
+      {
+        "detectors": [
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.4007347631674866e-08,
+        "logical_one_given_syndrome": 0.17397550578529095,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.1334768538128e-09
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.4007347631674866e-08,
+        "logical_one_given_syndrome": 0.17397550578529095,
+        "ml_flip": 0,
+        "low_prior_flip": 0,
+        "true_prior_flip": 1,
+        "true_minus_low_ler_contribution": 9.1334768538128e-09
+      },
+      {
+        "detectors": [
+          4,
+          7,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.4007347631674862e-08,
+        "logical_one_given_syndrome": 0.8260244942147088,
+        "ml_flip": 1,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": 9.133476853812794e-09
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          11
+        ],
+        "syndrome_probability": 1.4007347631674862e-08,
+        "logical_one_given_syndrome": 0.8260244942147088,
+        "ml_flip": 1,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": 9.133476853812794e-09
+      },
+      {
+        "detectors": [
+          4,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.4007347631674861e-08,
+        "logical_one_given_syndrome": 0.8260244942147088,
+        "ml_flip": 1,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": 9.133476853812792e-09
+      },
+      {
+        "detectors": [
+          4,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "syndrome_probability": 1.400734763167486e-08,
+        "logical_one_given_syndrome": 0.8260244942147088,
+        "ml_flip": 1,
+        "low_prior_flip": 1,
+        "true_prior_flip": 0,
+        "true_minus_low_ler_contribution": 9.13347685381279e-09
+      }
+    ]
+  }
+]
