@@ -1,0 +1,732 @@
+{
+  "delta": 0.25,
+  "seed": 42,
+  "label_to_prior": {
+    "II": "II",
+    "IX": "off_diagonal",
+    "IY": "off_diagonal",
+    "IZ": "IZ",
+    "XI": "off_diagonal",
+    "XX": "off_diagonal",
+    "XY": "off_diagonal",
+    "XZ": "off_diagonal",
+    "YI": "off_diagonal",
+    "YX": "off_diagonal",
+    "YY": "off_diagonal",
+    "YZ": "off_diagonal",
+    "ZI": "ZI",
+    "ZX": "off_diagonal",
+    "ZY": "off_diagonal",
+    "ZZ": "ZZ"
+  },
+  "cases": [
+    {
+      "distance": 7,
+      "T1": 10.88,
+      "T2": 10.88,
+      "basis": "z",
+      "shots": 1000000,
+      "priors_i_x_y_z": {
+        "matched": [
+          0.9341392247214351,
+          0.021953591759521624,
+          0.021953591759521624,
+          0.021953591759521624
+        ],
+        "II": [
+          0.47804640824047834,
+          0.1739845305865072,
+          0.1739845305865072,
+          0.1739845305865072
+        ],
+        "IZ": [
+          0.7170696123607175,
+          0.010976795879760812,
+          0.2609767958797608,
+          0.010976795879760812
+        ],
+        "ZI": [
+          0.7170696123607175,
+          0.2609767958797608,
+          0.010976795879760812,
+          0.010976795879760812
+        ],
+        "ZZ": [
+          0.7170696123607175,
+          0.010976795879760812,
+          0.010976795879760812,
+          0.2609767958797608
+        ],
+        "off_diagonal": [
+          0.5920696123607175,
+          0.1359767958797608,
+          0.1359767958797608,
+          0.1359767958797608
+        ]
+      },
+      "decoders": {
+        "standard": {
+          "matched": {
+            "failures": 10429,
+            "ler": 0.010429,
+            "only_perturbed_failed": 0,
+            "only_matched_failed": 0,
+            "delta_ler": 0.0,
+            "95_percent_ci": null
+          },
+          "II": {
+            "failures": 23293,
+            "ler": 0.023293,
+            "only_perturbed_failed": 16753,
+            "only_matched_failed": 3889,
+            "delta_ler": 0.012864,
+            "95_percent_ci": [
+              0.012435760590878042,
+              0.013292135284126688
+            ]
+          },
+          "IZ": {
+            "failures": 23293,
+            "ler": 0.023293,
+            "only_perturbed_failed": 16753,
+            "only_matched_failed": 3889,
+            "delta_ler": 0.012864,
+            "95_percent_ci": [
+              0.012435760590878042,
+              0.013292135284126688
+            ]
+          },
+          "ZI": {
+            "failures": 23293,
+            "ler": 0.023293,
+            "only_perturbed_failed": 16753,
+            "only_matched_failed": 3889,
+            "delta_ler": 0.012864,
+            "95_percent_ci": [
+              0.012435760590878042,
+              0.013292135284126688
+            ]
+          },
+          "ZZ": {
+            "failures": 10429,
+            "ler": 0.010429,
+            "only_perturbed_failed": 0,
+            "only_matched_failed": 0,
+            "delta_ler": 0.0,
+            "95_percent_ci": [
+              -2.9957277863923437e-06,
+              2.9957277863923437e-06
+            ]
+          },
+          "off_diagonal": {
+            "failures": 23293,
+            "ler": 0.023293,
+            "only_perturbed_failed": 16753,
+            "only_matched_failed": 3889,
+            "delta_ler": 0.012864,
+            "95_percent_ci": [
+              0.012435760590878042,
+              0.013292135284126688
+            ]
+          }
+        },
+        "correlated": {
+          "matched": {
+            "failures": 7266,
+            "ler": 0.007266,
+            "only_perturbed_failed": 0,
+            "only_matched_failed": 0,
+            "delta_ler": 0.0,
+            "95_percent_ci": null
+          },
+          "II": {
+            "failures": 13120,
+            "ler": 0.01312,
+            "only_perturbed_failed": 7138,
+            "only_matched_failed": 1284,
+            "delta_ler": 0.005854,
+            "95_percent_ci": [
+              0.005583996582937036,
+              0.006123942362335591
+            ]
+          },
+          "IZ": {
+            "failures": 13770,
+            "ler": 0.01377,
+            "only_perturbed_failed": 7880,
+            "only_matched_failed": 1376,
+            "delta_ler": 0.006504,
+            "95_percent_ci": [
+              0.006221682344465787,
+              0.006786252222457887
+            ]
+          },
+          "ZI": {
+            "failures": 11574,
+            "ler": 0.011574,
+            "only_perturbed_failed": 5800,
+            "only_matched_failed": 1492,
+            "delta_ler": 0.004308,
+            "95_percent_ci": [
+              0.0040502433782330614,
+              0.004565710650876625
+            ]
+          },
+          "ZZ": {
+            "failures": 10429,
+            "ler": 0.010429,
+            "only_perturbed_failed": 6592,
+            "only_matched_failed": 3429,
+            "delta_ler": 0.003163,
+            "95_percent_ci": [
+              0.0028495662099361557,
+              0.00347640515405035
+            ]
+          },
+          "off_diagonal": {
+            "failures": 11302,
+            "ler": 0.011302,
+            "only_perturbed_failed": 5567,
+            "only_matched_failed": 1531,
+            "delta_ler": 0.004036,
+            "95_percent_ci": [
+              0.0037805573120426785,
+              0.004291399394708084
+            ]
+          }
+        }
+      }
+    },
+    {
+      "distance": 7,
+      "T1": 10.88,
+      "T2": 10.88,
+      "basis": "x",
+      "shots": 1000000,
+      "priors_i_x_y_z": {
+        "matched": [
+          0.9341392247214351,
+          0.021953591759521624,
+          0.021953591759521624,
+          0.021953591759521624
+        ],
+        "II": [
+          0.47804640824047834,
+          0.1739845305865072,
+          0.1739845305865072,
+          0.1739845305865072
+        ],
+        "IZ": [
+          0.7170696123607175,
+          0.010976795879760812,
+          0.2609767958797608,
+          0.010976795879760812
+        ],
+        "ZI": [
+          0.7170696123607175,
+          0.2609767958797608,
+          0.010976795879760812,
+          0.010976795879760812
+        ],
+        "ZZ": [
+          0.7170696123607175,
+          0.010976795879760812,
+          0.010976795879760812,
+          0.2609767958797608
+        ],
+        "off_diagonal": [
+          0.5920696123607175,
+          0.1359767958797608,
+          0.1359767958797608,
+          0.1359767958797608
+        ]
+      },
+      "decoders": {
+        "standard": {
+          "matched": {
+            "failures": 10538,
+            "ler": 0.010538,
+            "only_perturbed_failed": 0,
+            "only_matched_failed": 0,
+            "delta_ler": 0.0,
+            "95_percent_ci": null
+          },
+          "II": {
+            "failures": 23628,
+            "ler": 0.023628,
+            "only_perturbed_failed": 17014,
+            "only_matched_failed": 3924,
+            "delta_ler": 0.01309,
+            "95_percent_ci": [
+              0.012658942213778971,
+              0.013520952008769762
+            ]
+          },
+          "IZ": {
+            "failures": 23628,
+            "ler": 0.023628,
+            "only_perturbed_failed": 17014,
+            "only_matched_failed": 3924,
+            "delta_ler": 0.01309,
+            "95_percent_ci": [
+              0.012658942213778971,
+              0.013520952008769762
+            ]
+          },
+          "ZI": {
+            "failures": 10538,
+            "ler": 0.010538,
+            "only_perturbed_failed": 0,
+            "only_matched_failed": 0,
+            "delta_ler": 0.0,
+            "95_percent_ci": [
+              -2.9957277863923437e-06,
+              2.9957277863923437e-06
+            ]
+          },
+          "ZZ": {
+            "failures": 23628,
+            "ler": 0.023628,
+            "only_perturbed_failed": 17014,
+            "only_matched_failed": 3924,
+            "delta_ler": 0.01309,
+            "95_percent_ci": [
+              0.012658942213778971,
+              0.013520952008769762
+            ]
+          },
+          "off_diagonal": {
+            "failures": 23628,
+            "ler": 0.023628,
+            "only_perturbed_failed": 17014,
+            "only_matched_failed": 3924,
+            "delta_ler": 0.01309,
+            "95_percent_ci": [
+              0.012658942213778971,
+              0.013520952008769762
+            ]
+          }
+        },
+        "correlated": {
+          "matched": {
+            "failures": 7283,
+            "ler": 0.007283,
+            "only_perturbed_failed": 0,
+            "only_matched_failed": 0,
+            "delta_ler": 0.0,
+            "95_percent_ci": null
+          },
+          "II": {
+            "failures": 13368,
+            "ler": 0.013368,
+            "only_perturbed_failed": 7518,
+            "only_matched_failed": 1433,
+            "delta_ler": 0.006085,
+            "95_percent_ci": [
+              0.005805553794897982,
+              0.006364384761675982
+            ]
+          },
+          "IZ": {
+            "failures": 13962,
+            "ler": 0.013962,
+            "only_perturbed_failed": 8216,
+            "only_matched_failed": 1537,
+            "delta_ler": 0.006679,
+            "95_percent_ci": [
+              0.006387817006658077,
+              0.006970117619745331
+            ]
+          },
+          "ZI": {
+            "failures": 10538,
+            "ler": 0.010538,
+            "only_perturbed_failed": 6686,
+            "only_matched_failed": 3431,
+            "delta_ler": 0.003255,
+            "95_percent_ci": [
+              0.0029402477926008842,
+              0.0035697228015127347
+            ]
+          },
+          "ZZ": {
+            "failures": 11662,
+            "ler": 0.011662,
+            "only_perturbed_failed": 5870,
+            "only_matched_failed": 1491,
+            "delta_ler": 0.004379,
+            "95_percent_ci": [
+              0.004120254067274485,
+              0.004637699340977501
+            ]
+          },
+          "off_diagonal": {
+            "failures": 11521,
+            "ler": 0.011521,
+            "only_perturbed_failed": 5885,
+            "only_matched_failed": 1647,
+            "delta_ler": 0.004238,
+            "95_percent_ci": [
+              0.0039746338336886355,
+              0.004501321990954972
+            ]
+          }
+        }
+      }
+    },
+    {
+      "distance": 9,
+      "T1": 16.32,
+      "T2": 16.32,
+      "basis": "z",
+      "shots": 1000000,
+      "priors_i_x_y_z": {
+        "matched": [
+          0.9554237575133918,
+          0.014858747495536078,
+          0.014858747495536078,
+          0.014858747495536078
+        ],
+        "II": [
+          0.485141252504464,
+          0.17161958249851206,
+          0.17161958249851206,
+          0.17161958249851206
+        ],
+        "IZ": [
+          0.7277118787566959,
+          0.007429373747768039,
+          0.25742937374776803,
+          0.007429373747768039
+        ],
+        "ZI": [
+          0.7277118787566959,
+          0.25742937374776803,
+          0.007429373747768039,
+          0.007429373747768039
+        ],
+        "ZZ": [
+          0.7277118787566959,
+          0.007429373747768039,
+          0.007429373747768039,
+          0.25742937374776803
+        ],
+        "off_diagonal": [
+          0.602711878756696,
+          0.13242937374776806,
+          0.13242937374776806,
+          0.13242937374776806
+        ]
+      },
+      "decoders": {
+        "standard": {
+          "matched": {
+            "failures": 1095,
+            "ler": 0.001095,
+            "only_perturbed_failed": 0,
+            "only_matched_failed": 0,
+            "delta_ler": 0.0,
+            "95_percent_ci": null
+          },
+          "II": {
+            "failures": 3327,
+            "ler": 0.003327,
+            "only_perturbed_failed": 2669,
+            "only_matched_failed": 437,
+            "delta_ler": 0.002232,
+            "95_percent_ci": [
+              0.0020684602124903598,
+              0.0023954918495936047
+            ]
+          },
+          "IZ": {
+            "failures": 3327,
+            "ler": 0.003327,
+            "only_perturbed_failed": 2669,
+            "only_matched_failed": 437,
+            "delta_ler": 0.002232,
+            "95_percent_ci": [
+              0.0020684602124903598,
+              0.0023954918495936047
+            ]
+          },
+          "ZI": {
+            "failures": 3327,
+            "ler": 0.003327,
+            "only_perturbed_failed": 2669,
+            "only_matched_failed": 437,
+            "delta_ler": 0.002232,
+            "95_percent_ci": [
+              0.0020684602124903598,
+              0.0023954918495936047
+            ]
+          },
+          "ZZ": {
+            "failures": 1095,
+            "ler": 0.001095,
+            "only_perturbed_failed": 0,
+            "only_matched_failed": 0,
+            "delta_ler": 0.0,
+            "95_percent_ci": [
+              -2.9957277863923437e-06,
+              2.9957277863923437e-06
+            ]
+          },
+          "off_diagonal": {
+            "failures": 3327,
+            "ler": 0.003327,
+            "only_perturbed_failed": 2669,
+            "only_matched_failed": 437,
+            "delta_ler": 0.002232,
+            "95_percent_ci": [
+              0.0020684602124903598,
+              0.0023954918495936047
+            ]
+          }
+        },
+        "correlated": {
+          "matched": {
+            "failures": 575,
+            "ler": 0.000575,
+            "only_perturbed_failed": 0,
+            "only_matched_failed": 0,
+            "delta_ler": 0.0,
+            "95_percent_ci": null
+          },
+          "II": {
+            "failures": 1216,
+            "ler": 0.001216,
+            "only_perturbed_failed": 746,
+            "only_matched_failed": 105,
+            "delta_ler": 0.000641,
+            "95_percent_ci": [
+              0.0005557431166822749,
+              0.000726185902343001
+            ]
+          },
+          "IZ": {
+            "failures": 1266,
+            "ler": 0.001266,
+            "only_perturbed_failed": 794,
+            "only_matched_failed": 103,
+            "delta_ler": 0.000691,
+            "95_percent_ci": [
+              0.0006040250628188205,
+              0.0007779013390765377
+            ]
+          },
+          "ZI": {
+            "failures": 1072,
+            "ler": 0.001072,
+            "only_perturbed_failed": 615,
+            "only_matched_failed": 118,
+            "delta_ler": 0.000497,
+            "95_percent_ci": [
+              0.0004159980554624739,
+              0.0005779420408059645
+            ]
+          },
+          "ZZ": {
+            "failures": 1095,
+            "ler": 0.001095,
+            "only_perturbed_failed": 814,
+            "only_matched_failed": 294,
+            "delta_ler": 0.00052,
+            "95_percent_ci": [
+              0.00041659558820864636,
+              0.0006233750253599633
+            ]
+          },
+          "off_diagonal": {
+            "failures": 1031,
+            "ler": 0.001031,
+            "only_perturbed_failed": 581,
+            "only_matched_failed": 125,
+            "delta_ler": 0.000456,
+            "95_percent_ci": [
+              0.00037584617343556766,
+              0.0005360983117784982
+            ]
+          }
+        }
+      }
+    },
+    {
+      "distance": 9,
+      "T1": 16.32,
+      "T2": 16.32,
+      "basis": "x",
+      "shots": 1000000,
+      "priors_i_x_y_z": {
+        "matched": [
+          0.9554237575133918,
+          0.014858747495536078,
+          0.014858747495536078,
+          0.014858747495536078
+        ],
+        "II": [
+          0.485141252504464,
+          0.17161958249851206,
+          0.17161958249851206,
+          0.17161958249851206
+        ],
+        "IZ": [
+          0.7277118787566959,
+          0.007429373747768039,
+          0.25742937374776803,
+          0.007429373747768039
+        ],
+        "ZI": [
+          0.7277118787566959,
+          0.25742937374776803,
+          0.007429373747768039,
+          0.007429373747768039
+        ],
+        "ZZ": [
+          0.7277118787566959,
+          0.007429373747768039,
+          0.007429373747768039,
+          0.25742937374776803
+        ],
+        "off_diagonal": [
+          0.602711878756696,
+          0.13242937374776806,
+          0.13242937374776806,
+          0.13242937374776806
+        ]
+      },
+      "decoders": {
+        "standard": {
+          "matched": {
+            "failures": 1081,
+            "ler": 0.001081,
+            "only_perturbed_failed": 0,
+            "only_matched_failed": 0,
+            "delta_ler": 0.0,
+            "95_percent_ci": null
+          },
+          "II": {
+            "failures": 3312,
+            "ler": 0.003312,
+            "only_perturbed_failed": 2653,
+            "only_matched_failed": 422,
+            "delta_ler": 0.002231,
+            "95_percent_ci": [
+              0.0020686162628033374,
+              0.0023933349469284094
+            ]
+          },
+          "IZ": {
+            "failures": 3312,
+            "ler": 0.003312,
+            "only_perturbed_failed": 2653,
+            "only_matched_failed": 422,
+            "delta_ler": 0.002231,
+            "95_percent_ci": [
+              0.0020686162628033374,
+              0.0023933349469284094
+            ]
+          },
+          "ZI": {
+            "failures": 1081,
+            "ler": 0.001081,
+            "only_perturbed_failed": 0,
+            "only_matched_failed": 0,
+            "delta_ler": 0.0,
+            "95_percent_ci": [
+              -2.9957277863923437e-06,
+              2.9957277863923437e-06
+            ]
+          },
+          "ZZ": {
+            "failures": 3312,
+            "ler": 0.003312,
+            "only_perturbed_failed": 2653,
+            "only_matched_failed": 422,
+            "delta_ler": 0.002231,
+            "95_percent_ci": [
+              0.0020686162628033374,
+              0.0023933349469284094
+            ]
+          },
+          "off_diagonal": {
+            "failures": 3312,
+            "ler": 0.003312,
+            "only_perturbed_failed": 2653,
+            "only_matched_failed": 422,
+            "delta_ler": 0.002231,
+            "95_percent_ci": [
+              0.0020686162628033374,
+              0.0023933349469284094
+            ]
+          }
+        },
+        "correlated": {
+          "matched": {
+            "failures": 540,
+            "ler": 0.00054,
+            "only_perturbed_failed": 0,
+            "only_matched_failed": 0,
+            "delta_ler": 0.0,
+            "95_percent_ci": null
+          },
+          "II": {
+            "failures": 1225,
+            "ler": 0.001225,
+            "only_perturbed_failed": 795,
+            "only_matched_failed": 110,
+            "delta_ler": 0.000685,
+            "95_percent_ci": [
+              0.0005972283103725295,
+              0.0007727015189949807
+            ]
+          },
+          "IZ": {
+            "failures": 1275,
+            "ler": 0.001275,
+            "only_perturbed_failed": 844,
+            "only_matched_failed": 109,
+            "delta_ler": 0.000735,
+            "95_percent_ci": [
+              0.0006454185334560697,
+              0.0008245093060779585
+            ]
+          },
+          "ZI": {
+            "failures": 1081,
+            "ler": 0.001081,
+            "only_perturbed_failed": 840,
+            "only_matched_failed": 299,
+            "delta_ler": 0.000541,
+            "95_percent_ci": [
+              0.00043625864168905516,
+              0.0006457117477453096
+            ]
+          },
+          "ZZ": {
+            "failures": 1072,
+            "ler": 0.001072,
+            "only_perturbed_failed": 627,
+            "only_matched_failed": 95,
+            "delta_ler": 0.000532,
+            "95_percent_ci": [
+              0.0004529494512616458,
+              0.0006109786901911541
+            ]
+          },
+          "off_diagonal": {
+            "failures": 1002,
+            "ler": 0.001002,
+            "only_perturbed_failed": 578,
+            "only_matched_failed": 116,
+            "delta_ler": 0.000462,
+            "95_percent_ci": [
+              0.0003829012237685136,
+              0.0005410396825942793
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
